@@ -1,0 +1,24 @@
+.card{
+    padding: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    &__img{
+        max-width: 100%;
+        object-fit: cover;
+        &-container{
+            overflow: hidden;
+            border-radius: 2rem;
+        }
+    }
+    &__header{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    &__sub-header{
+        font-size: 1.3rem;
+    }
+}
